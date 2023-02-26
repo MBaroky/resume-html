@@ -30,7 +30,7 @@ a {
 }
 
 #data-wrapper section {
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   box-sizing: border-box;
 }
 
@@ -204,7 +204,10 @@ ul.timeline > li:before {
 .row.dl-horizontal svg {
   width: auto;
   max-height: 2.4rem;
-  fill: var(--front-color-secondary);
+}
+
+.row.dl-horizontal svg, .row.dl-horizontal svg * {
+  fill: var(--front-color-main);
 }
 
 .row.dl-horizontal p {
