@@ -50,9 +50,9 @@ a {
 
 @media (max-width: 767px) {
   #main-navbar {
-    height: auto;
+    /*height: auto;*/
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
   }
 }
 
@@ -113,6 +113,10 @@ a {
 
 .card-header.bg-dark {
   color: var(--front-color-main) !important;
+}
+
+.card .card-header {
+  border-color: var(--front-color-secondary);
 }
 
 @media (min-width: 768px) {
