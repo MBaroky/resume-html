@@ -119,6 +119,10 @@ a {
   border-color: var(--front-color-secondary);
 }
 
+.card .card-header > * {
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   #card-warpper {
     height: 100vh;
@@ -155,5 +159,55 @@ a {
 .progress.progress-md > * {
   background-color: var(--front-color-main);
   border-radius: 10px;
+}
+
+/* timeline */
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline > li:not(:last-child):after {
+  content: ' ';
+  background: var(--front-color-main);
+  display: inline-block;
+  position: absolute;
+  left: 9px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  z-index: 200;
+}
+
+ul.timeline > li {
+  margin: 0 !important;
+  padding: 0 0 20px 30px;
+  position: relative;
+}
+
+ul.timeline > li:before {
+  content: ' ';
+  background: var(--bg-color-dark);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid var(--front-color-main);
+  left: 0;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+/* detailed list */
+
+.row.dl-horizontal svg {
+  width: auto;
+  max-height: 2.4rem;
+  fill: var(--front-color-secondary);
+}
+
+.row.dl-horizontal p {
+  line-height: 2.4rem;
 }
 
