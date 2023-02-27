@@ -21,6 +21,11 @@ h6 {
   background-color: var(--bg-color-dark) !important;
 }
 
+.bg-light {
+  background-color: var(--front-color-secondary) !important;
+  color: var(--bg-color-dark) !important;
+}
+
 a {
   transition: color 0.3s ease-in;
 }
@@ -212,5 +217,6 @@ ul.timeline > li:before {
 
 .row.dl-horizontal p {
   line-height: 2.4rem;
+  white-space: nowrap;
 }
 
