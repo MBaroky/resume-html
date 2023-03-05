@@ -220,3 +220,36 @@ ul.timeline > li:before {
   white-space: nowrap;
 }
 
+/* samples */
+
+#samples .tab-pane {
+  padding: 0.4rem;
+}
+
+#samples .gallery a {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+#samples .gallery.photos a {
+  height: 0;
+  padding-bottom: 69%;
+}
+
+#samples .gallery.photos a img {
+  /*display: none;*/
+}
+
+#samples .nav-link {
+  color: var(--front-color-secondary);
+}
+
+#samples .nav-item .nav-link:hover {
+  color: var(--front-color-main);
+}
+
+#samples .nav-item .nav-link.active {
+  color: var(--bg-color-dark);
+  background-color: var(--front-color-main);
+}
+
