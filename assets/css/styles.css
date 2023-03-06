@@ -96,6 +96,8 @@ a {
 
 #profile-picture {
   border-color: var(--front-color-main) !important;
+  width: 160px;
+  height: 160px;
 }
 
 .card-body img {
